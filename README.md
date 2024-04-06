@@ -1,3 +1,16 @@
+# Recomendations for database changes (task 1):
+Appologies I am not a database or backend engineer so I have attempted this to the best of what I know and have experienced you may not agree with these improvements:
+ - Primary Keys, each table should have a unique idetifier which I would make a integer and have increment.
+ - Indexes, this could make performance better if the database was larger (dont think it would make much diffrence at this size)
+ - Relationships, would add foreign key to the user and parc tables to accociate with a booking
+ - Documentation, Would probably add something around the schema.
+
+# Practices/Changes for a frontend engineer (task 2):
+- Naming conventions, for tables and fields as they are very generic
+- Contraints, fields should have not null for things like name and email within users and unique ones for things like emails to ensure they are in the correct format
+- Data types, everything appears to be strings, could probably use integers for ID's, date for booking date fields
+- Normalize the database, back to the previous point have sperate tables for Users, Parcs and Bookings and create a relationship with a foreign key between them.
+
 # Quick test
 
 ## Introduction
